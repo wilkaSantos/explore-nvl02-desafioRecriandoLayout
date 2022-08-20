@@ -1,0 +1,141 @@
+/* = = = FONTs = = = */
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap'); /*font-family: 'JetBrains Mono', monospace;*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap'); /* font-family: 'Open Sans', sans-serif; */
+
+
+/* = = = GLOBAL = = = */
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    min-height: 100vh;
+    background-color: #2F2E41;
+    color: #fff;
+}
+
+.pagina{
+    width: 1083px;
+    margin: 0 auto;
+    padding-top: 71px;
+    
+    /*border: 1px solid #000;*/
+}
+
+/* = = = CABEÇALHO = = = */
+
+.cabecalho{
+    font-family: 'JetBrains Mono', monospace;
+    line-height: 28px;
+
+    width: 1083px;
+    height: 30px;
+    margin-bottom: 101px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    /*border: 1px solid #000;*/
+}
+
+.container-logo{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.menu{
+    list-style: none;
+    display: flex;
+    gap: 64px;
+
+    font-size: 14px;
+}
+
+.item-menu a{
+    text-decoration: none;
+    color: #fff;
+}
+
+/* = = = HERO = = = */
+
+.hero{
+    display: flex;
+    gap: 82px;
+
+    margin-bottom: 167px;
+}
+
+.container-info{
+    width: 604px;
+    height: 283px;
+
+    text-align: center;
+    /*border: 1px solid #000;*/
+}
+
+.titulo{
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 40px;
+
+    margin-bottom: 59px;
+}
+
+.titulo span{
+    color: #00BFA6;
+}
+
+.texto{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.parag1{
+    margin-bottom: 20px;
+}
+
+.texto span{
+    color: #00BFA6;
+    font-weight: bold;
+}
+
+/* = = = RODAPÉ = = = */
+
+.rodape{
+    width: 568px;
+    height: 55px;
+    margin: 0 auto;
+
+    font-family: 'JetBrains Mono', monospace;
+    text-align: center;
+    font-size: 14px;
+    line-height: 28px;
+    font-style: normal;
+    font-weight: 500;
+
+    /*border: 1px solid #000;*/
+}
+
+.linha-rodape{
+    border: 1px solid #00BFA6;
+    width: 568px;
+    margin-bottom: 30px;
+}
+
+.texto-rodape a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.cadeado{
+    position: fixed;
+    left: 20px;
+    bottom: 20px;
+}
